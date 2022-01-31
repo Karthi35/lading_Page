@@ -1,0 +1,149 @@
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+body {
+  min-height: 1200px;
+}
+nav {
+  background: #eaebec;
+  min-height: 85px;
+}
+h2.align-1 {
+  text-align: center;
+}
+.hero-image {
+  background-image: url(1.png);
+}
+.col-md-6.size-1 {
+  /* font-size: 40px; */
+  padding: 38px;
+}
+.size-1 {
+    text-align: center;
+    font-size: 71px;
+    padding: 60px;
+}
+.size-2 {
+  font-size: 16px;
+  padding: 81px;
+  padding-top: 95px;
+  padding-right: 251px;
+  padding-bottom: 81px;
+  padding-left: 1px;
+}
+h1.h1-1 {
+  font-size: 85px;
+}
+h2.align-1 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.button {
+  background-color: #0D4398; 
+  border: none;
+  color: white;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+
+img.padd {
+  padding: 40px;
+  padding-top: 0px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+}
+
+.padd-2 {
+  padding: 80px;
+  padding-top: 80px;
+  padding-right: 0px;
+  padding-bottom: 80px;
+  padding-left: 280px;
+}
+
+.pop-up-button {
+  background:none;
+  width:150px;
+  height:40px;
+  line-height:40px;
+  text-align:center;
+  color:#FFEA53;
+  margin:200px auto;
+  border-radius:5px;
+  border:1px solid #FFEA53;
+  cursor:pointer;
+	font-weight:bold;
+}
+.pop-up-button:hover{
+  background:#FFEA53;
+	color:#121212;
+}
+.pop-up {
+  height:auto;
+  width:60%;
+  margin:10vh auto;
+  background:#fff;
+  position:relative;
+  z-index:1;
+  border-radius:5px;
+  box-shadow:0 0 20px #000;
+}
+.pop-up-container{
+  height:100vh;
+  width:100%;
+  background:#000;
+  opacity:.5;
+  position:relative;
+  z-index:-1;
+  margin-top:-500px;
+}
+span {
+  border-radius:3em;
+  margin-left:95%;
+  background:#212121;
+  color:#fff;
+  font-size:1.25em;
+  padding:.4em .7em;
+  cursor:pointer;
+}
+.pop-up-text {
+  box-sizing:border-box;
+  padding:20px;  
+}
+.pop-up-text h1{
+  font-size:2em;
+	font-weight:bold;
+  margin-bottom:20px;
+	color:#212121;
+}
+.pop-up-text p{
+  font-size:1em;
+  margin-bottom:1em;
+}
+.pop-up-text a {
+  color:#FF3D3D;
+  margin-bottom:10px;
+}
+.pop-up-text img {
+  max-height:250px;
+  width:100%;
+  text-align:center;
+  margin-bottom:10px;
+}
+
+
